@@ -1,0 +1,60 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.my-ip-con{
+
+    height: 41px;
+width: 1167px;
+margin-left: 41px;
+margin-top: 59px;
+border-radius: nullpx;
+
+}
+
+.my-ip,#ID{
+    font-family: Inter;
+font-size: 34px;
+font-weight: 700;
+line-height: 41px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.getData-con{
+
+    
+    width: 303px;
+   height: 67px;
+    margin-left: 41px;
+    top: 127px;
+     background:#000000;
+     border-radius: 10px;
+     display: flex;
+     text-align: center;
+     justify-content: center;
+     margin-top: 25px;
+     
+
+}
+
+.button{
+   
+    width: 105px;
+   
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    background-color:#000000;
+    border: 0;
+ 
+}
+
+
+

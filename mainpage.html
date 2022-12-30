@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MainPage</title>
+    <link rel="stylesheet" href="./mainstyle.css" />
+  </head>
+  <body onload="getFromAPi()">
+    <div class="mainContainer">
+      <div class="ipBox">
+        <span class="ipName">MY Public IP ADDRESS :</span><span id="id"></span>
+      </div>
+      <div class="details">
+        <div>
+          <p class="lati" id="lat">l</p>
+          <p class="lati" id="long">2</p>
+        </div>
+        <div>
+          <p class="lat" id="city">3</p>
+          <p class="lat" id="region">4</p>
+        </div>
+        <div>
+          <p class="lat" id="org">5</p>
+          <p class="lat" id="host">6</p>
+        </div>
+        
+      </div>
+      <div class="mapBox">
+        <iframe src="" frameborder="1" class="map" id="map"></iframe>
+      </div>
+      <div class="others">
+        <p class="timeZone" id="timeZone">4</p>
+        <p class="dateTime" id="dateTime">5</p>
+        <p class="pinCode" id="pinCode">6</p>
+        <p class="message" id="message">7</p>
+      </div>
+
+      <div>
+        <div class="has-search">
+         
+         <img src="./assets/icons8-search-50.png" alt="" height="45px" width="45px">
+           <input type="text" class="filter" placeholder="Filter" />
+        </div>
+
+        <div class="cardContainer" id="cardContainer">
+           
+        </div>
+
+        
+      </div>
+
+      
+    </div>
+
+    <script src="./mainScript.js"></script>
+  </body>
+</html>

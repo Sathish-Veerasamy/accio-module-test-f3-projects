@@ -1,0 +1,129 @@
+* {
+  padding: auto;
+  box-sizing: border-box;
+}
+
+body{
+  padding: 25px;
+  background-color: antiquewhite;
+  
+}
+.mainContainer {
+  padding: 25px;
+ 
+}
+.ipBox {
+  height: 41px;
+  width: 1167px;
+  left: 41px;
+  top: 59px;
+  border-radius: nullpx;
+}
+
+.ipBox .ipName,
+#id {
+  font-family: Inter;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.details {
+  display: flex;
+  justify-content: space-between;
+  justify-items: left;
+}
+.details p {
+  font-family: Inter;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.mapBox,
+.map {
+  width: 1408px;
+  height: 649px;
+}
+.others {
+  font-family: Inter;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.has-search {
+  height: 85px;
+  width: 1408px;
+  left: 849px;
+  top: 808px;
+  border: solid 1px black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+.filter {
+  height: 38px;
+  width: 100%;
+  left: 924px;
+  top: 830px;
+  border-radius: nullpx;
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  border: none;
+  margin-left: 0;
+}
+
+
+
+
+
+
+
+.card-box {
+  float: left;
+  width: 40%;
+  padding: 10px;
+  height: 440px; /* Should be removed. Only for demonstration */
+  padding: 30px;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+
+/* Clear floats after the columns */
+.cardContainer:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding: 10px;
+
+}
+.cardContainer{
+  box-sizing: border-box;
+  width: 100%;
+  height: 599px;
+}
+.cardContainer div{
+  margin: 10px;
+}
+.card-box p{
+  font-family: Inter;
+font-size: 34px;
+font-weight: 400;
+line-height: 41px;
+letter-spacing: 0em;
+text-align: left;
+
+}
